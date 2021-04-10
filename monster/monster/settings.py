@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%x5*r73##zcq6etgvnw7b0)j8*mn(i1slj@&lt56ugey0@!nlr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', 'ketchup.monster']
 
 
 # Application definition
